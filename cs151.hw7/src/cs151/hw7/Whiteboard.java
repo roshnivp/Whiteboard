@@ -40,17 +40,17 @@ public class Whiteboard extends JFrame {
 		this.setSize(800, 400);
 		this.add(canvas, BorderLayout.CENTER);
 		vertical.add(controls);
-		vertical.add(Box.createVerticalStrut(40));
+		vertical.add(Box.createVerticalStrut(20));
 		vertical.add(color);
-		vertical.add(Box.createVerticalStrut(40));
+		vertical.add(Box.createVerticalStrut(20));
 		vertical.add(openSave);
-		vertical.add(Box.createVerticalStrut(40));
+		vertical.add(Box.createVerticalStrut(20));
 		vertical.add(network);
-		vertical.add(Box.createVerticalStrut(40));
+		vertical.add(Box.createVerticalStrut(20));
 		vertical.add(text);
-		vertical.add(Box.createVerticalStrut(40));
+		vertical.add(Box.createVerticalStrut(20));
 		vertical.add(movement);
-		vertical.add(Box.createVerticalStrut(40));
+		vertical.add(Box.createVerticalStrut(20));
 		vertical.add(table);
 		for (Component comp : vertical.getComponents()) {
 			((JComponent) comp).setAlignmentX(Box.LEFT_ALIGNMENT);
